@@ -96,6 +96,10 @@ nav a{
   font-family: 'Fira Sans', sans-serif;
 }
 
+video{
+  width:100%;
+}
+
 
 .pagination{
   text-align: center;
