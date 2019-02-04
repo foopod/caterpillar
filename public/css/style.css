@@ -1,0 +1,180 @@
+body {
+  font-family: 'Gloria Hallelujah', sans-serif;
+  box-sizing: border-box;
+  margin:0;
+  font-size: 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(64, 80, 145);
+}
+
+#site-title {
+  text-align:center;
+  font-size: 3em;
+  font-weight:200;
+  margin-bottom:0.1em;
+}
+
+#site-title a{
+  color:rgb(64, 80, 145);
+}
+
+.tagline{
+  font-weight:100;
+  margin: auto;
+  margin-bottom:1em;
+}
+
+#main-content {
+  max-width:36em;
+  margin:auto;
+  padding:1.5em;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight:200;
+}
+
+.top{
+  padding:0 1em;
+  text-align: center;
+}
+
+nav{
+  text-align:center;
+  margin-bottom:10px;
+}
+
+nav a{
+  padding: 0 20px;
+  font-size:18px;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.posts{
+  margin-top:2em;
+}
+
+.post{
+  margin-bottom:6em;
+}
+
+.post img{
+  left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+
+.post-title{
+  margin-bottom:0;
+}
+
+.post-date{
+  font-weight:100;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+.pagination{
+  text-align: center;
+}
+
+.pagination-item{
+  padding:16px;
+}
+
+span.pagination-item {
+  visibility:hidden;
+}
+
+p img{
+  width:100%;
+  margin: 1em auto 0 auto;
+}
+
+.gallery-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.image-container{
+  padding:1em;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  display: block;
+}
+
+.image-description span{
+  text-align:center;
+  display:block;
+  padding:6px 0px;
+}
+
+p img{
+  /* width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; */
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .gallery-item {
+    width: 33%;
+  }
+  .image-description span{
+    font-size: 0.9em;
+    font-weight: 200;
+  }
+}
+
+@media screen and (min-width: 690px) {
+  #site-title {
+    text-align:left;
+  }
+  nav {
+    text-align:right;
+  }
+  .tagline{
+    text-align:left;
+  }
+
+  .post img{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    position: initial;
+    width: 100%;
+  }
+}
