@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: ''
-  label: _layouts
+  label: "/_layouts"
   create: all
   match: "**/*"
 - type: jekyll-posts
