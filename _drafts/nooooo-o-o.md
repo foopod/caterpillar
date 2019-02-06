@@ -1,0 +1,18 @@
+---
+layout: post
+title: NoooOO!O!O!!!
+description: The wasp comes
+date: 2019-02-05 11:00:00 +0000
+
+---
+When I checked on them this morning I was worried because I couldn't find any of our little baby caterpillars :(
+
+Then when I came back from finding my camera the culprit returned to the scene of the crime.
+
+![](/public/2019-02-06-1.jpeg)
+
+We barely knew you. But we miss you already and have been hit hard by this tragic loss.
+
+Goodbye our babies
+
+![](/public/2019-02-06-2.jpeg)
