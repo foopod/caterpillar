@@ -16,4 +16,5 @@ fields:
   name: date
   label: date
 pages:
+- _posts/eh.md
 - _posts/2019-02-05-nooooo-o-o.md
